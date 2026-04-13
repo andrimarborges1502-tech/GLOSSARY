@@ -1,0 +1,582 @@
+GENERAL
+ROW — Right of Way
+Referencia espacial
+Delimitación entre la propiedad privada y el espacio público (calles, avenidas, ROW de ferrocarril). Sirve como referencia de dónde puede ir la infraestructura sin invadir propiedad privada. Esta información es extraída de Property Appraiser, Plat Books y récords de las ciudades.
+
+
+Center Line (CL)
+Referencia espacial
+Línea axial que divide una vialidad en dos mitades simétricas. Así como para la línea de ROW, la información para determinar este eje es extraída de Property Appraiser, Plat Books y récords de las ciudades. Otras herramientas como el GIS son clave para determinar su ubicación técnica. 
+Nota: Si bien la definición teórica del Center Line se refiere a la línea axial que divide una estructura en dos partes geométricamente simétricas, en la práctica técnica y legal, este eje no siempre equidista de los bordes actuales de la vía.
+Debido al desarrollo urbano y la expansión de la infraestructura, las ciudades suelen añadir carriles adicionales de forma asíncrona. En estos casos, el CL original se mantiene inalterado como referencia legal y catastral, independientemente de que la configuración física de la calzada haya perdido su simetría. Por ello, es imperativo consultar los registros históricos y herramientas de precisión para su ubicación exacta.
+
+
+EOP — End of Pavement
+Referencia espacial
+Límite físico donde termina la superficie pavimentada de una vialidad y comienza la berma, acotamiento o terreno natural.
+
+
+Property Line (PL)
+Referencia legal
+Línea que divide parcelas o propiedades privadas contiguas. Se traza usando el GIS del condado o registros catastrales.
+
+	
+Platbook / Records
+Fuente de datos
+Documentos oficiales de registro de la propiedad que contienen los planos de subdivisión, lotes, servidumbres y linderos legales de un área. Son la fuente primaria para trazar easements, ROW y property lines.
+
+
+
+Easement
+Referencia legal
+Derecho legal registrado sobre un predio ajeno para un uso específico (paso de infraestructura, acceso, mantenimiento). Se dibuja como una franja dentro del predio privado afectada por este derecho.
+
+
+FPL — Florida Power & Light
+Actor / ROW
+Principal empresa distribuidora de electricidad en Florida. La infraestructura de FPL (postes, líneas, subestaciones) debe identificarse en el mapa base para coordinar instalaciones de telecom.
+
+
+FDOT — Florida Dept. of Transportation
+Actor / ROW
+Agencia estatal responsable de las vialidades y el ROW de carreteras en Florida, así como del mantenimiento de las mismas. Cualquier trabajo en el ROW de FDOT requiere permisos específicos y el cumplimiento de sus estándares de diseño y MOT.
+
+
+DERM — Dept. of Environmental Resources Management
+Actor / Regulatorio
+Agencia del condado de Miami-Dade responsable de la protección de recursos naturales (humedales, cuerpos de agua, zonas de inundación). Se consulta para identificar restricciones ambientales que afecten el trazado. Cualquier trabajo bajo la jurisdicción de DERM requiere permisos específicos y el cumplimiento de sus diseños y estándares.
+
+
+KMZ
+Herramienta GIS
+Formato de archivo comprimido de Google Earth (Keyhole Markup Language Zipped) que contiene capas geográficas vectoriales, imágenes y datos de ubicación. Se usan para importar capas de referencia al software de diseño.
+
+
+Street View
+Herramienta de verificación
+Herramienta de imágenes a nivel de calle (Google Street View u otras plataformas) usada para verificar condiciones reales del sitio sin visita presencial. Es complementaria al vuelo aéreo y al fieldwork, no un sustituto.
+
+
+
+
+Fieldwork
+Proceso
+Visita física al sitio de trabajo para recopilar datos reales que no están disponibles en fuentes digitales: condiciones del suelo, ubicación exacta de postes, obstáculos, servidumbres no registradas, estado de la vía.
+
+
+Viewport
+Proceso
+El área geográfica visible y activa en el software de diseño donde se trabaja en ese momento. Define los límites del diseño a desarrollar. Cada viewport puede corresponder a una lámina o sección del proyecto.
+
+
+Acotado / Dimensioned
+Documentación
+Plano o elemento gráfico que incluye cotas (dimensiones numéricas) que indican distancias, separaciones o tamaños de los elementos representados. Un diseño acotado especifica distancias necesarias para construcción y permisos.
+
+
+Driveway
+Elemento de sitio
+Acceso vehicular privado que conecta una propiedad privada con la vía pública. Se identifica para evitar instalar postes o conduits que bloqueen accesos existentes, y para planificar la instalación de drops que crucen la entrada.
+
+
+Fence / Cerca
+Elemento de sitio
+Estructura de delimitación física (metal, madera, malla) entre propiedades o áreas. Se registra para identificar posibles obstáculos para la instalación de postes, conduits o drops, y para definir puntos de acceso al predio.
+
+
+Sidewalk / Banqueta
+Elemento de sitio
+Zona peatonal pavimentada paralela a la vialidad, generalmente dentro del ROW. Determina el tipo de instalación (trench con reposición de concreto vs. bore o plow bajo la banqueta) y los permisos necesarios.
+
+
+U-Guard / Canaleta U
+Elemento de sitio
+Perfil metálico o plástico en forma de 'U' usado para proteger cables que deben pasar sobre una superficie expuesta o a lo largo de una fachada. Se identifica cuando hay infraestructura existente con este tipo de protección.
+
+
+Riser
+Estructura de transición
+Es el camino que toman los cables para subir desde el suelo (o un sótano) hacia los pisos superiores de un edificio o hacia la cima de un poste. Comúnmente se ubican dentro de edificios (ductos verticales) o pegado al costado de un poste de utilidad. Estos proporcionan una vía despejada para el cableado.
+
+
+AE Aerial Line
+Elemento de diseño
+En proyectos de distribución eléctrica/telecom, representa el trazado de poste a poste de la línea aérea. En los planos se representa típicamente con una línea de color azul oscuro.
+
+
+Railroad (RR)
+Elemento de sitio
+Infraestructura ferroviaria activa o fuera de servicio presente en el área de diseño. Se identifica para planificar cruces (railroad crossing) con los permisos correspondientes y el uso obligatorio de HDD.
+
+
+TSR — Township, Section, Range
+Referencia catastral
+Sistema de referencia de la división territorial pública de tierras en EUA (Public Land Survey System). Se usa para referenciar ubicaciones en áreas rurales donde las direcciones de calle no existen.
+
+
+Handoff
+Proceso
+Paquete de información inicial proporcionado por el cliente al inicio del proyecto, que puede incluir fotografías del sitio, información técnica, planos preliminares y requerimientos específicos. Revisarlo es el primer paso antes de iniciar.
+
+
+Jurisdiction
+Legal / Proceso
+Entidad gubernamental (municipio, condado, estado, agencia federal) con autoridad legal sobre el área de trabajo. Define qué estándares de diseño aplican, qué permisos se requieren y cuál es el proceso de aprobación.
+
+
+Make Ready
+Proceso
+Proceso técnico, logístico y constructivo para preparar una estructura existente (postes y su infraestructura) para la instalación, reubicación o refuerzo de nuevas líneas de distribución. Solo se realiza para postes. 
+
+
+Template
+Proceso
+Archivo base del proyecto que contiene la estructura, capas, estilos y estándares específicos de diseño para el desarrollo de ingeniería, una jurisdicción o un tipo de permiso determinado. Confirmar el template correcto antes de empezar es obligatorio.
+
+
+Checklist
+Proceso
+Documento con los requerimientos específicos de cada zona y fase del proyecto. Es obligatorio revisarlo y verificar que todos los requerimientos estén cumplidos antes de enviar la asignación.
+
+
+OHWM — Ordinary High Water Mark
+Ambiental
+Línea que representa el máximo nivel normal alcanzado por un cuerpo de agua, determinada por evidencias físicas (erosión, cambio de vegetación, depósitos de sedimentos). Es el límite legal para regulaciones ambientales y de construcción en zonas ribereñas.
+
+
+BFE — Base Flood Elevation
+Ambiental
+Elevación que el nivel del agua alcanzaría en una inundación con 1% de probabilidad anual (inundación de 100 años), según los mapas de la FEMA. Referencia obligatoria para el diseño de infraestructura en zonas de riesgo.
+
+
+Wetlands
+Ambiental
+Zonas de terreno saturadas estacionalmente que albergan vegetación y fauna específica de ambientes húmedos. Están protegidas por ley federal y estatal. Se identifican para evitar afectarlas o para obtener permisos ambientales.
+
+
+Buffer Zone
+Ambiental
+Franja de terreno de protección alrededor de un cuerpo de agua, humedal u otro elemento sensible. Generalmente de 150' a 200' desde el borde del canal. No se puede instalar infraestructura permanente dentro del buffer sin permisos ambientales especiales.
+
+
+Top of Bank (TOB)
+Canal
+Elevación del punto más alto del borde o talud de un canal de agua. Representa el límite físico superior antes de que el agua desborde hacia las zonas adyacentes. Es la referencia de medición para cruces de canal.
+
+
+Culvert
+Canal / Infraestructura
+Estructura hidráulica cerrada (tubo, caja o arco) instalada bajo una vía, terraplén o camino para permitir el paso del flujo de agua. Se identifican para planificar la instalación de conduits de telecomunicaciones o cualquier otra utilidad propuesta en la misma ubicación.
+
+
+NAVD / NGVD
+Referencia geodésica
+NAVD88 (North American Vertical Datum 1988) y NGVD29 (National Geodetic Vertical Datum 1929) son los sistemas de referencia verticales estándar para elevaciones en EUA. Se usan para estandarizar elevaciones en zonas con riesgo de inundación.
+
+
+Guy Wire
+Soporte estructural
+Cable de acero galvanizado tensado diagonalmente desde la parte superior de una estructura hasta un ancla en el suelo. Estabiliza la estructura ante cargas laterales de viento y tensión mecánica.
+
+
+AE / OH
+Método constructivo
+Se refiere al método constructivo Aéreo (Aerial / Overhead). Instalación de cables sobre postes.
+
+
+Bore / Directional Bore
+Construcción
+Perforación horizontal dirigida (HDD — Horizontal Directional Drilling) que instala el conducto sin abrir la superficie. Se usa para cruzar calles, carreteras, vías de tren o cualquier zona donde no se puede excavar.
+
+
+Bore Pit (BP)
+Construcción
+Excavación puntual que sirve como punto de inserción o recepción para la maquinaria de HDD. El BP de entrada es donde se posiciona el equipo perforador; el de salida es donde emerge la cabeza de perforación.
+
+
+New Bore
+Construcción
+Indica que la perforación no existe y debe realizarse desde cero. A diferencia de utilizar un conducto existente, implica costos adicionales de maquinaria, tiempo y gestión de permisos.
+
+
+Missile Bore
+Construcción
+Técnica de perforación de corta distancia donde se dispara un torpedo neumático que abre paso en el suelo sin guía direccional. Más rápido y económico que el HDD, pero solo funciona en tramos cortos y terrenos blandos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plowing / Cable Plow
+Construcción
+Método en el que una máquina abre una ranura estrecha en el suelo e instala el cable o conducto en un solo paso, sin zanja abierta. Muy eficiente en terrenos blandos (jardines, campos, bermas). No requiere reponer asfalto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trench / Trenching / Open trench
+Construcción
+Excavación abierta en el suelo para colocar conductos o cables. Se abre la zanja, se instalan los conductos y se tapan y reparan la superficie (asfalto, banqueta, tierra). Es el método más tradicional y directo.
+
+
+HDD — Horizontal Directional Drilling
+Método de instalación
+Tecnología de perforación subterránea que permite instalar conduits sin abrir zanjas en superficie. Se usa para cruces de vialidades, ríos, vías de tren u otras obstrucciones.
+
+
+
+
+
+
+
+Conduit
+Material
+Tubo por donde viaja el cable de fibra óptica bajo tierra. El HDPE (High Density Polyethylene) es el material estándar en telecom: flexible, resistente a golpes, químicos y humedad.
+
+
+Innerduct
+Canalización
+Ducto interior instalado dentro de un conduit principal para proteger y organizar cables de fibra o coaxiales. Permite separar diferentes servicios o carriers.
+
+
+Linear Footage / Footage
+Medición
+Medida de longitud en pies que indica cuántos pies de zanja o bore se instalan. Es la unidad estándar en proyectos de construcción en EUA.
+
+
+Manhole
+Infraestructura
+Cámara subterránea con tapa al nivel del suelo (en banqueta o calle) que permite a técnicos bajar y acceder a los cables para empalmes, jaloneos y mantenimiento. Son más grandes que los handholes.
+
+
+
+Handhole (HH)
+Infraestructura / Vault
+Bóveda rectangular enterrada con tapa al ras del suelo. Permite acceder a los cables sin necesidad de excavar. Los tamaños más comunes son HH 17, HH 24 y HH 30 (pulgadas).
+
+
+
+
+
+
+
+
+BD03 / Flowerpot
+Infraestructura / Vault
+La bóveda de menor tamaño. Se entierra al ras del suelo y da acceso a cables de fibra en zonas residenciales. Su apodo 'flowerpot' viene de su forma cilíndrica similar a una maceta.
+
+
+
+Pedestal
+Infraestructura
+Caja pequeña que emerge sobre la superficie del suelo (generalmente en jardines o bermas) y aloja terminales de fibra, splitters o puntos de empalme. Punto de distribución común en redes residenciales enterradas.
+
+
+Riser Pole
+Estructura
+Poste donde el cable transita de subterráneo a aéreo (o viceversa). El cable lleva un tubo de acero o conduit protector llamado riser que lo cubre desde el nivel del suelo hasta el punto de fijación en el poste. Cualquier poste existente puede convertirse en un Riser Pole si sus condiciones técnicas y estructurales lo permiten.marek
+
+
+Pole
+Estructura
+Estructura vertical de soporte para cables aéreos. Puede ser de madera (más común en EUA), concreto o acero. Los cables de fibra, eléctricos y telefónicos comparten el poste en franjas asignadas por tipo de servicio.
+
+
+Strand
+Soporte mecánico
+Cable de acero galvanizado tensado entre postes. Su función es exclusivamente mecánica: soportar el peso del cable de fibra a lo largo del vano aéreo. No lleva ninguna señal.
+
+
+Lash / Lashing Wire
+Instalación aérea
+Proceso de sujetar el cable de fibra al strand. El lashing wire es el alambre en espiral (acero galvanizado o aluminio) que se enrolla alrededor del strand y el cable simultáneamente, uniéndolos a lo largo de todo el vano.
+
+
+Overlash
+Instalación aérea
+Técnica de instalar un nuevo cable de fibra sobre un strand que ya tiene un cable lasheado. Más económico, pero requiere verificar que la capacidad del strand soporte el peso adicional.
+
+
+Snowshoe
+Instalación aérea
+Herraje de soporte diseñado para almacenar de forma segura los Coils (reservas de cable) en el tendido aéreo de fibra óptica. Su nombre proviene de su forma ovalada, similar a una raqueta de nieve.
+
+
+Slack Loop / Coil
+Instalación
+Reserva de cable extra enrollada en un punto del trayecto, para usar en reparaciones futuras sin tener que jalar cable desde otro punto. Variantes: UG Structure Slack (dentro de handhole/manhole) y Pole Slack (enrollado en el poste).
+
+
+Overlap
+Instalación
+Longitud extra de cable que se deja en empalmes o transiciones para asegurar margen de trabajo. Evita que el cable quede a ras y sin posibilidad de maniobra en futuras intervenciones o reparaciones.
+
+
+
+Anchor / Guying
+Soporte
+Sistema de cables diagonales de acero (guys) que anclan el poste al suelo para resistir la tensión lateral del strand o cargas de viento. Obligatorio en esquinas, puntos de fin de línea o postes con mucha carga.
+
+
+ct — Fiber Count
+Concepto base
+'ct' significa count (conteo). Indica cuántas fibras ópticas individuales contiene el cable. A más fibras, más conexiones simultáneas puede soportar. Ejemplo: un cable 48ct tiene 48 fibras individuales.
+
+
+2ct · 4ct · 6ct · 12ct
+Drop / Acometida
+Cables de menor conteo, usados para conexiones de un solo cliente o puntos finales muy específicos. El cable drop que llega a la casa del cliente suele ser de 2ct o 4ct. También se usan en jumpers y pigtails dentro de equipos.
+
+
+24ct · 48ct · 72ct · 96ct
+Distribución
+Cables de distribución para ramas secundarias del vecindario. Conectan los FDH con las terminales (OTE) en los postes o con grupos de pedestales. Son más delgados y económicos que los cables de troncal.
+
+
+144ct · 288ct · 432ct · 576ct+
+Backbone / Feeder
+Cables de alta capacidad usados en el tramo principal (feeder o backbone) que conecta el OLT o hub central con los FDH de cada zona. Existen cables de mayor capacidad (864ct, 1152ct+) para rutas de muy alta densidad.
+
+
+GIS
+Herramienta
+Geographic Information System: plataforma de software que almacena, visualiza y analiza la información geoespacial de la red. En telecom se usa para mapear rutas de cable, postes, handholes, zonas de servicio y cobertura.
+
+
+Fielding
+Proceso
+Visita física al sitio de construcción para verificar las condiciones reales antes o durante el proyecto. Se revisan postes, rutas de cable, obstáculos, estado del terreno y diferencias entre planos y realidad.
+
+
+
+Miss / 811 / Utility Locate
+Seguridad
+Proceso obligatorio antes de cualquier excavación: se notifica a las empresas de servicios para que marquen la ubicación de sus cables o tuberías subterráneas. En EUA se llama al 811 ('Call Before You Dig').
+
+
+As-Built
+Documentación
+Documentación que refleja exactamente cómo quedó construida la red, incluyendo cualquier cambio respecto al plano original. Es el registro oficial de lo que existe en campo. Esencial para mantenimiento y expansión.
+
+
+FTTH — Fiber To The Home
+Red de fibra
+Tecnología de red de fibra óptica que lleva la conexión directamente hasta el domicilio del usuario final.
+
+
+F1 — Feeder Cable
+Red de fibra
+Cable principal que transporta la señal desde el OLT hasta los nodos de distribución (FDH). Es el cable de mayor capacidad (troncal) de la red.
+
+
+F2 — Distribution Cable
+Red de fibra
+Cable Secundario, dirigido a los terminales. Conecta los FDH con las terminales (OTE, MST o FDT) en los postes o pedestales.
+
+
+F3 — Drop Cable
+Red de fibra
+Cable terciario, dirigido al usuario final. Es el tramo más delgado de la red: conecta la terminal con el domicilio del cliente.
+
+
+OLT — Optical Line Terminal
+Equipo central
+Equipo activo ubicado en la central o headend del proveedor. Es el punto de origen de toda la red PON: controla, gestiona y envía la señal óptica hacia todos los clientes de su área.
+
+
+ONT — Optical Network Terminal
+Terminal de red
+Terminal de red óptica instalada en el domicilio del cliente. Convierte la señal óptica en señal eléctrica para los dispositivos del usuario.
+
+
+FDH — Fiber Distribution Hub
+Nodo / Hub de distribución
+Nodo donde el cable de distribución se divide para llegar a los hogares mediante splitters. Puede instalarse en poste, gabinete o bóveda. Los modelos 288, 432, 576 y 864 indican la capacidad máxima en fibras.
+
+
+
+
+
+
+
+
+
+
+
+Splitter
+Pasivo
+Dispositivo pasivo que toma una señal de fibra y la divide en múltiples señales hacia varios clientes. Una entrada, muchas salidas. No necesita energía eléctrica. Se instalan típicamente dentro del FDH.
+
+
+
+OTE — Optical Terminal Equipment
+Terminal de red
+Caja donde se conectan los cables drop de los clientes. Se instala principalmente en postes. El número de puertos indica cuántos clientes puede servir: OTE 4-port, 6-port, 8-port, 12-port.
+
+
+MST — Multi-Service Terminal
+Terminal de red
+Terminal de fibra diseñada para servir a múltiples clientes desde un solo punto. Integra un tail (latiguillo de entrada) de diferentes longitudes. Puede montarse en poste, pared o pedestal.
+
+
+
+
+
+
+
+
+
+
+
+
+FDT — Fiber Distribution Terminal
+Terminal de red
+Terminal de fibra instalada típicamente en pedestal o handhole, que sirve como punto final de distribución en zonas de red enterrada (buried). Desde aquí salen los drops enterrados hacia las casas.
+
+
+Drop Cable
+Cable de acometida
+Cable de fibra que va desde la terminal (OTE, MST o FDT) hasta el domicilio del cliente. Es el tramo final de la red: el más delgado, con menor conteo (2–4ct). Puede instalarse aéreo o enterrado (buried drop).
+
+
+NAP / CTO
+Terminal de red
+Punto de acceso a la red para abonados. Network Access Point: nodo local de conexión donde se sirve a un grupo de clientes en la última milla.
+
+
+NAP Cluster
+Distribución
+Network Access Point cluster: agrupación de puntos donde se conectan varios drops de clientes en una misma área. Es el nivel más local de distribución antes de llegar a la casa.
+
+
+Splice Case
+Empalme
+Caja sellada que protege los empalmes de fibra por fusión (fusion splices). Protege las fibras del polvo, agua y daño mecánico. Viene en tres tamaños: B-Case (pequeño), C-Case (mediano) y D-Case (grande).
+
+
+Cabinet / Enclosure
+Infraestructura
+Caja metálica o plástica que protege equipos activos o pasivos de red (splitters, empalmes, patch panels) instalada en la vía pública, en postes o en losas.
+
+
+
+Jumper
+Componente
+Cable de fibra óptica corto, preensamblado con conectores en ambos extremos, usado para interconectar equipos dentro de un gabinete, FDH, OLT o panel de parcheo.
+
+
+Patch Cord
+Componente
+Similar al jumper, es un cable de fibra corto con conectores en ambos extremos utilizado para conectar puertos en patch panels o equipos activos. Se usa típicamente dentro de un rack o sala de equipos.
+
+
+NID — Network Interface Device
+Terminal de red
+Punto de conexión físico donde termina el cableado de la empresa proveedora (Drop) y comienza el cableado interno al usuario. Delimita la responsabilidad de mantenimiento entre proveedor y cliente.
+
+
+MDU
+Tipo de edificación
+Multi-Dwelling Unit. Edificio de viviendas o unidades residenciales múltiples (apartamentos, condominios). Requiere diseño especial de distribución interna de fibra.
+
+
+SBU
+Tipo de cliente
+Small Business Unit. Unidad de pequeña empresa. Segmento de clientes empresariales de menor escala.
+
+
+SFU
+Tipo de edificación
+Single Family Unit. Vivienda unifamiliar. El cliente residencial estándar de la red FTTH.
+
+
+
+
+Passing
+Cobertura
+Usuarios o domicilios que pasan frente a la ruta de la red y a los cuales se puede ofrecer servicio sin extensiones adicionales significativas.
+
+
+Spare
+Gestión de red
+Fibras adicionales conectadas pero no activas, reservadas para uso futuro o expansión de la red.
+
+
+UG — Underground
+Método constructivo
+Underground. Método constructivo subterráneo. La infraestructura se instala bajo la superficie del terreno mediante zanjas, bore o plow.
+
+
+Clearance
+Reglamentación
+Distancia mínima reglamentaria que debe existir entre el cable de fibra (o strand) y otros cables o líneas en el mismo poste. La más crítica es la separación entre telecom y cables eléctricos.
+
+
+Permit
+Gestión
+Autorización emitida por la autoridad municipal, estatal o el propietario del derecho de vía para excavar, instalar postes o realizar trabajos en la vía pública. Sin el permiso, no se puede iniciar la construcción.
+
+
+MOT — Maintenance of Traffic
+Seguridad vial
+Plan que especifica cómo se gestionará el flujo vehicular y peatonal mientras se trabaja en la vía pública. Incluye señalización, conos, policías de tránsito o desviaciones. También llamado Traffic Control Plan.
+
+
+
+
+BOM — Bill of Materials
+Documentación
+Inventario exhaustivo de todos los materiales, equipos y componentes requeridos para ejecutar el diseño: tipos, cantidades, especificaciones y unidades. Es la base para la requisición de compra y el control de inventario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

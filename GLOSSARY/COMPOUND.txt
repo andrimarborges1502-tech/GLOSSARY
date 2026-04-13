@@ -1,0 +1,216 @@
+COMPOUND · TORRES
+
+Compound
+Sitio
+Área cercada donde se emplaza la base de la torre más los equipos (shelters, generadores, baterías). Para monopolo, el estándar es de 50' × 50'. La cerca delimita el área arrendada y de acceso controlado.
+
+
+Chain Link Fence
+Infraestructura de sitio
+Cercado de malla de alambre galvanizado, típicamente de 6 u 8 pies de altura. Delimita el perímetro del compound. Puede incluir Privacy Slats (láminas de privacidad) para ocultar el interior.
+
+
+Privacy Slats
+Infraestructura de sitio
+Láminas plásticas o metálicas insertadas en la malla de la cerca chain link para proporcionar privacidad visual al interior del compound y reducir el impacto estético en el entorno.
+
+
+H-Frame
+Estructura eléctrica
+Estructura metálica en forma de 'H' utilizada para montar equipos eléctricos y de fibra dentro del compound. UO establece un estándar de 7' de ancho, con banco de medidores y gabinete NEMA 48×48 para telco.
+
+
+Footing / Zapata
+Cimentación
+Base de concreto enterrada que soporta y estabiliza los postes de la cerca o del H-Frame. Transfiere las cargas de la estructura al suelo.
+
+
+
+
+
+Sch 40 (Schedule 40)
+Material
+Designación que indica el espesor de pared de tuberías según norma ASME. No representa directamente un espesor fijo, sino una clasificación estandarizada usada comúnmente en conduits de PVC.
+
+
+Subgrade / Subrasante
+Civil
+El suelo natural preparado y compactado que sirve como base para el pavimento, grava o cimentaciones del compound.
+
+
+Geotextile / Weed Barrier
+Material
+Tela sintética que se coloca bajo la grava para evitar el crecimiento de maleza y separar el suelo de la capa de acabado dentro del compound.
+
+
+Gravel / Grava
+Material
+Capa de piedra triturada que cubre el suelo del compound. Facilita el drenaje de agua pluvial, evita el lodo y es de bajo mantenimiento en el área de acceso y trabajo.
+
+
+ATS — Automatic Transfer Switch
+Eléctrico
+Interruptor que cambia automáticamente la fuente de energía de la red principal a un generador en caso de falla eléctrica. Garantiza la continuidad del servicio en sistemas críticos.
+
+
+CT Metering
+Eléctrico
+Sistema de medición que utiliza Transformadores de Corriente (CT) para medir altas corrientes de energía. Permite al proveedor eléctrico facturar el consumo del compound.
+
+
+
+Disconnect Switch
+Eléctrico
+Dispositivo de seguridad que permite cortar el flujo eléctrico hacia el equipo para realizar mantenimiento de forma segura sin necesidad de des-energizar el sistema completo.
+
+
+KCMIL (o MCM)
+Eléctrico
+Unidad de medida para el grosor de cables eléctricos de gran capacidad. Por ejemplo, se especifican cables de 500 KCMIL para los alimentadores principales del compound.
+
+
+NEMA 3R
+Eléctrico
+Clasificación de protección para gabinetes eléctricos diseñados para uso exterior, resistentes a la lluvia y el hielo. Estándar aplicado a los gabinetes del H-Frame.
+
+
+ONAN — Oil Natural Air Natural
+Eléctrico
+Sistema de enfriamiento de transformadores mediante la circulación natural de aceite y aire. Método pasivo sin necesidad de bombas o ventiladores forzados.
+
+
+Wye Solidly Grounded
+Eléctrico
+Configuración de transformador en estrella con neutro sólidamente conectado a tierra. Es el sistema de distribución eléctrica más común en instalaciones de telecomunicaciones en EUA.
+
+
+Clocking Arrow
+Antenas
+Marca pintada en el suelo que indica hacia dónde debe apuntar el frente de la antena. Facilita la instalación precisa y verificable de la orientación de cada equipo.
+
+
+
+Crosshair / Retícula
+Antenas
+Marca en forma de '+' que indica el centro exacto donde debe posicionarse cada una de las antenas. Guía al instalador para el posicionamiento preciso.
+
+
+
+Layout Square
+Antenas
+Cuadrado de 8.5×8.5 pies, pintado con spray, que delimita el área de trabajo para cada posición de antena dentro del compound.
+
+
+ASTM
+Normativa
+American Society for Testing and Materials. Organización que define los estándares técnicos para los materiales (ej. ASTM A615 para varillas de refuerzo usadas en footings).
+
+
+Cold Galvanizing / Galvanizado en frío
+Material
+Compuesto rico en zinc que se aplica con brocha o aerosol para reparar superficies galvanizadas que fueron cortadas o soldadas en campo, restaurando la protección contra la corrosión.
+
+
+NEC — National Electrical Code
+Normativa
+Código que regula las instalaciones eléctricas en EUA (NFPA 70). Define los estándares de seguridad para el cableado y equipos eléctricos del compound.
+
+
+OSHA
+Normativa
+Occupational Safety and Health Administration. Normas de seguridad y salud en el trabajo que el contratista debe seguir estrictamente durante la construcción e instalación.
+
+
+LF / EA / CU FT
+Documentación
+Unidades de medida en planos: LF (Lineal feet / Pies lineales), EA (Each / Cada uno), CU FT (Cubic feet / Pie cúbico). Utilizadas para cuantificar materiales en el BOM.
+
+
+NTS — Not to Scale
+Documentación
+Indica que el dibujo es esquemático y no debe medirse directamente con un escalímetro sobre el papel. Se usa para detalles constructivos que son representativos, no proporcionales.
+
+
+PVC — Polyvinyl Chloride
+Material
+Material plástico común usado para los conductos (tuberías) de cables eléctricos y fibra dentro y alrededor del compound. Disponible en Schedule 40 y Schedule 80.
+
+
+Liquidtight Flex Conduit
+Conexiones
+Tubería flexible diseñada para proteger los cables de la humedad y vibraciones. Se utiliza para conectar el Rack V3.0 al H-Frame y en transiciones entre equipos dentro del compound.
+
+
+Mouse Hole
+Conexiones
+Abertura pequeña en la base de un gabinete o estructura para permitir la entrada y salida de cables sin exponer el interior a la intemperie o a daños mecánicos.
+
+
+OS2 Single Mode
+Fibra
+Estándar de fibra óptica diseñada para largas distancias. Los planos del compound especifican el uso de 8 o 12 pares de fibra OS2 para las conexiones hacia la torre y equipos externos.
+
+
+
+Pull String / Fish Line
+Instalación
+Cordón de nylon o polipropileno (PP) dejado dentro de los conductos vacíos para facilitar la futura instalación de cables. Se instala durante la obra civil para no tener que re-excavar.
+
+
+Lease Area
+Legal / Sitio
+Porción del predio formalmente arrendada por el operador de la torre, que puede coincidir o ser más amplia que el compound. Se delimita en los documentos de contrato y en los planos del sitio.
+
+
+Lightning Rod / Pararrayos
+Protección eléctrica
+Varilla conductora que sobresale en la parte superior de la torre para disipar las descargas atmosféricas hacia tierra, protegiendo equipos y estructura. UO exige una altura estándar de 10' sobre el top RAD.
+
+
+Shelter
+Infraestructura de sitio
+Gabinete o caseta prefabricada instalada dentro del compound para alojar los equipos activos del carrier (radios, baterías, aires acondicionados). Puede ser metálico o de fibra de vidrio.
+
+
+Generator
+Eléctrico
+Equipo de respaldo de energía eléctrica instalado dentro del compound. Se activa automáticamente (mediante el ATS) cuando hay un corte en la red eléctrica principal, garantizando la operación continua.
+
+
+Battery Bank / BESS
+Eléctrico
+Banco de baterías o sistema de almacenamiento de energía instalado en el compound como respaldo de corta duración antes de que el generador entre en operación. Provee energía instantánea ante micro-cortes.
+
+
+
+Ground Ring / Copper Ground Ring
+Puesta a tierra
+Anillo de conductor de cobre enterrado alrededor del perímetro del compound que forma el sistema de puesta a tierra. Todos los equipos metálicos del sitio se conectan a este anillo para protección eléctrica.
+
+
+Grounding Rod
+Puesta a tierra
+Varilla de acero recubierta de cobre, enterrada verticalmente en el suelo, que actúa como electrodo de tierra para el sistema de puesta a tierra del compound.
+
+
+4-Point Fall-of-Potential Test
+Geotécnica
+Método estándar para medir la resistencia de un sistema de puesta a tierra (ground). Consiste en clavar cuatro electrodos en el suelo e inyectar corriente entre los exteriores mientras se mide la caída de voltaje en los interiores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

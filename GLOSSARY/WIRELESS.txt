@@ -1,0 +1,123 @@
+WIRELESS · DISEÑO DE TORRES
+
+Monopole
+Tipo de estructura
+Torre de telecomunicaciones tubular de fuste único (un solo mástil), sin cables de retenida. Es la estructura más común en entornos urbanos y suburbanos por su menor huella. En UO aplica para alturas de 0–155 ft.
+
+
+Self-Support Tower (SST)
+Tipo de estructura
+Torre que se sostiene por su propia estructura rígida, típicamente de celosía con 3 o 4 patas, sin cables de retenida. Tiene mayor huella que el monopolo pero soporta cargas más altas y múltiples carriers. En UO aplica para alturas de 160–350 ft.
+
+
+Guyed Tower (GT)
+Tipo de estructura
+Torre de gran altura estabilizada con cables tensados (guy wires) conectados a anclas en el suelo. En UO aplica típicamente para torres de +355 ft. Requiere áreas adicionales para los anclajes.
+
+
+RAD Center
+Diseño de torre
+Radio Antenna Deployment. Punto o altura de referencia en la torre donde se ubica o se reserva un conjunto de antenas de un carrier. UO pide considerar mínimo 3 RADs separados 10' entre sí, etiquetados como FUTURE en los planos.
+
+
+Carrier
+Actor
+Operador de telecomunicaciones inalámbricas (AT&T, Verizon, T-Mobile, etc.) que instala antenas y equipos en la torre. UO exige diseñar pensando en un mínimo de 3 future carriers para maximizar la rentabilidad del sitio.
+
+
+
+
+
+EPA — Effective Projected Area
+Carga estructural
+Dato extraído de las fichas técnicas de antenas que representa la superficie real que 'siente' el viento. Es el parámetro más crítico que se introduce en software como tnxTower para calcular la carga sobre la estructura.
+
+
+Shielding
+Diseño estructural
+Técnica de diseño que consiste en colocar las líneas de alimentación (feed lines) dentro del fuste del monopolo o detrás de los miembros estructurales, de modo que el viento no las impacte directamente.
+
+
+Flange Connection
+Estructura
+Método de unión entre dos secciones de poste o tubo mediante un anillo circular plano con agujeros (brida), apretado con pernos cara a cara. Es la conexión más común en los postes redondos escalonados (tapered round poles).
+
+
+Lightning Rod
+Protección eléctrica
+Varilla conductora en la parte superior de la torre para disipar las descargas atmosféricas hacia tierra. UO exige una altura estándar de 10' sobre el top RAD y que se muestre la medición exacta en los planos.
+
+
+Fresnel Zone
+RF / Propagación
+Volumen elipsoidal de espacio libre entre dos antenas de un enlace de microondas. Para una transmisión exitosa, al menos el 60% de la primera zona de Fresnel debe estar despejada de obstáculos.
+
+
+Microwave Antennas / Dishes
+Equipamiento RF
+Equipos de alta frecuencia (antenas parabólicas circulares) usados para transmisión de datos punto a punto. Ofrecen alta ganancia y directividad. Se usan en SPLAT! para simular propagación y definir la altura de torre.
+
+
+
+Wavelength / Longitud de onda
+RF / Teoría
+Distancia entre dos crestas consecutivas de una señal electromagnética. Determina el tamaño físico de la antena: a mayor frecuencia, menor longitud de onda y antenas más compactas.
+
+
+ALTA Survey
+Levantamiento
+Levantamiento topográfico-legal bajo el estándar ALTA/NSPS (American Land Title Association). Documenta los límites legales del predio, servidumbres, mejoras, accesos e infraestructura existente.
+
+
+AMSL — Above Mean Sea Level
+Referencia
+Datum de referencia vertical para expresar elevaciones absolutas. UO lo requiere en la Carta 1A, certificada por el surveyor con lat/long y tolerancias precisas, para garantizar la correcta planificación de la altura de la torre.
+
+
+FAA 1A Letter
+Documentación
+Carta oficial certificada por un surveyor licenciado que confirma la latitud, longitud y elevación AMSL del sitio. Requerida para la notificación de estructuras que pueden afectar el espacio aéreo.
+
+
+NAD83 / NAVD88
+Referencia geodésica
+NAD83 (North American Datum 1983): sistema de referencia horizontal estándar para coordenadas geográficas en Norteamérica. NAVD88 (North American Vertical Datum 1988): datum vertical estándar para elevaciones.
+
+
+NEC / TIA Standards
+Normativa
+NEC (National Electrical Code): código eléctrico de referencia en EUA. TIA (Telecommunications Industry Association): organismo que publica estándares para torres y estructuras (ej. TIA-222). UO exige certificar el cumplimiento de ambos.
+
+
+
+SPT / Shelby Tube / RQD
+Geotécnica
+SPT (Standard Penetration Test): prueba estándar de penetración para caracterizar la resistencia del suelo. Shelby Tube: tubo de pared delgada para extraer muestras inalteradas. RQD: índice de calidad de roca para cimentaciones.
+
+
+4-Point Fall-of-Potential
+Geotécnica
+Método estándar para medir la resistencia de un sistema de puesta a tierra (ground). Consiste en clavar cuatro electrodos en el suelo e inyectar corriente entre los exteriores mientras se mide la caída de voltaje en los interiores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+GRID · FIBRA EN RED ELÉCTRICA
+
+
+Substation
+Infraestructura eléctrica
+Centro operativo eléctrico que actúa como punto de origen para líneas de transmisión y donde se ubican los dispositivos FDP. Es el nodo de partida de los segmentos de fibra en proyectos de red eléctrica.
+
+
+FDP — Fiber Distribution Point
+Nodo
+Punto crítico de la red donde convergen o nacen los segmentos de fibra óptica. Puede estar en subestaciones, cámaras o equipos de maniobra. En proyectos Grid, los FDP se ubican en subestaciones.
+
+
+Segment
+Estructura de proyecto
+Extensión de fibra de un punto a otro que conecta subestaciones, T-splices o nodos estratégicos de la red eléctrica. Cada segmento tiene su propio diseño, bill of materials y documentación.
+
+
+Inset
+Estructura de proyecto
+División técnica de un segmento principal, definida en el coversheet del proyecto. Permite subdividir tramos largos en unidades manejables para diseño, construcción y documentación.
+
+
+T-Splice
+Empalme
+Nodo de ramificación de fibra que permite derivar la señal hacia una nueva trayectoria sin interrumpir el cable troncal. Divide el hilo en dos o más rutas, actuando como punto de distribución en la red.
+
+
+
+
+
+
+Pothole
+Localización
+Es el término general para el agujero o excavación puntual. Su propósito es meramente de localización, debido a que esta excavación de diámetro reducido se realiza para localizar y verificar visualmente la posición exacta de servicios subterráneos existentes (fibra óptica o la infraestructura para no romperla al usar maquinaria pesada después) antes de iniciar trabajos de mayor envergadura.
+
+
+Soft Dig
+Localización
+Es una técnica específica de excavación segura. Se refiere al uso de métodos neumáticos (aire) o hidráulicos (agua) combinados con aspiración (vacío), utilizados para exponer la infraestructura sin posibilidad de dañarla. A diferencia de una pala mecánica que puede cortar un cable, el chorro de aire o agua no daña el plástico ni el metal. Se exige cuando hay cables de alta tensión, fibra óptica crítica o tuberías de gas donde un chispazo o un golpe sería catastrófico.
+
+
+Locate Post
+Señalización
+Señalizador vertical instalado en campo para indicar la ubicación exacta de infraestructuras enterradas (cables, conduits). Facilita las tareas de mantenimiento y previene daños en excavaciones futuras.
+
+
+Marker Post
+Señalización
+Marcador vertical instalado en campo para indicar la ubicación exacta y servir como elemento de advertencia en superficie que identifica la trayectoria de instalaciones críticas enterradas o aéreas. Usualmente se usan para marcar rutas de fibra óptica en zonas rurales o agrícolas.
+
+
+Redline
+Documentación
+Documentación gráfica sobre copias de los planos de construcción que registra las modificaciones realizadas durante la fase de construcción. Son la base para elaborar los planos As-Built al cierre del proyecto.
+
+
+Match Line
+Documentación
+Referencia gráfica en planos de ingeniería que indica dónde un diseño continúa en otra lámina o sección. Permite dividir proyectos de gran extensión en múltiples hojas manteniendo la trazabilidad.
+
+
+
+Index
+Documentación
+Registro organizado de todos los planos, documentos y especificaciones que componen el paquete de ingeniería de un proyecto. Incluye número de lámina, título, revisión y fecha de cada documento.
+
+
+R&R — Remove and Restore
+Construcción
+Obligación contractual de retirar material, infraestructura o superficie existente afectada por los trabajos, y restaurarla a su condición original una vez concluidos. Condición frecuente en permisos de ROW.
+
+
+Survey
+Documentación
+Proceso sistemático de medición y toma de datos en terreno (topografía, ubicación de servicios, condiciones del suelo) que sirve como base para el diseño. En proyectos Grid incluye la localización de postes y derechos de vía.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SSUP · PROGRAMA DE SERVICIOS SUBTERRÁNEOS
+
+
+
+ASF — Aerial Span Feature
+SSUP
+Registro en el sistema SSUP que representa un cable, línea o servicio que cruza por el aire sobre un área de trabajo. Se documenta para evaluar interferencias y coordinar despejes antes del inicio de cualquier trabajo en campo.
+
+
+Channel Crossing
+SSUP
+Punto donde la infraestructura de telecom (cables aéreos o conduits subterráneos) cruza un canal de agua. Requiere análisis especial de clearance, coordinación con la autoridad del canal y permisos específicos.
+
+
+Gas Line
+SSUP — Utility
+Infraestructura subterránea de distribución de gas natural o LP identificada en el programa SSUP. Su presencia requiere localización obligatoria (811 / Miss Dig) antes de cualquier excavación, por el alto riesgo de explosión.
+
+
+Highway Crossing
+SSUP
+Cruce de infraestructura de telecom sobre o bajo una carretera federal, estatal o primaria. Requiere permisos especiales de la agencia de transporte (DOT), MOT detallado y en muchos casos el uso de HDD.
+
+
+Power Utility
+SSUP — Utility
+Infraestructura de distribución o transmisión eléctrica (aérea o subterránea) presente en el área de trabajo. Su identificación y localización exacta es crítica para la seguridad del personal y la planificación de clearances.
+
+
+
+
+
+Railroad Crossing
+SSUP
+Punto donde la infraestructura de telecom cruza una vía de ferrocarril activa o en desuso. Requiere permisos específicos de la empresa ferroviaria, diseño de protección especial del cable y en muchos casos el uso de HDD.
+
+
+Reclaimed Water
+SSUP — Utility
+Tuberías de agua tratada (no potable) usada para riego o usos industriales. Se identifican con marcas específicas (típicamente púrpura) en campo. Su localización es necesaria para evitar interferencias con conduits de telecom.
+
+
+Monitoring Well (Water)
+SSUP — Ambiental
+Pozo instalado para monitorear la calidad o nivel del agua subterránea. Su presencia debe registrarse en el SSUP y considerarse en el diseño de rutas para evitar afectarlo durante la construcción.
+
+
+Sanitary Sewer
+SSUP — Utility
+Red subterránea para el transporte de aguas residuales domésticas o industriales hacia plantas de tratamiento. Su identificación y localización exacta es obligatoria antes de cualquier excavación.
+
+
+Storm Drain Sewer
+SSUP — Utility
+Sistema de tuberías y canales diseñado para capturar y transportar el agua de lluvia y escorrentía superficial. A diferencia del alcantarillado sanitario, descarga directamente en cuerpos de agua sin tratamiento previo.
+
+
+Street Light
+SSUP — Utility
+Infraestructura de iluminación pública vial, que incluye postes, luminarias y el cable subterráneo de alimentación. Los cables de alumbrado deben localizarse antes de excavaciones, ya que suelen estar a menor profundidad.
+
+
+
+Traffic Signal
+SSUP — Utility
+Infraestructura de control de tráfico vehicular que incluye el dispositivo visible y el cableado subterráneo de alimentación y control. Su daño durante la construcción puede causar situaciones de peligro vial.
+
+
+Water Lines
+SSUP — Utility
+Redes de distribución de agua potable a presión. Son uno de los servicios subterráneos más comunes y críticos. Su localización precisa es obligatoria antes de cualquier excavación.
+
+
+
